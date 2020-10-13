@@ -1,0 +1,23 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: mystudy-demo
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+        namespace: 7387c222-8af3-45f2-9821-789cdf076a18
+        server-addr: 192.168.25.118:8848
+      discovery:
+        server-addr: 192.168.25.118:8848
+        namespace: 7387c222-8af3-45f2-9821-789cdf076a18
+  main:
+    allow-bean-definition-overriding: true
+
+logging:
+  level:
+    root: debug

@@ -1,6 +1,8 @@
 package com.yuan.mystudy;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
